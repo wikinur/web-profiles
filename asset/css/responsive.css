@@ -1,0 +1,154 @@
+/* Responsive */
+/* Ukuran 768px */
+@media (max-width: 768px) {
+  header {
+    padding: 11px 30px;
+  }
+
+  #menu-icon {
+    display: initial;
+  }
+
+  header ul {
+    position: absolute;
+    top: -500px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--third-color);
+    border-top: 2px solid var(--second-color);
+    text-align: left;
+    transition: 0.5s;
+  }
+
+  header ul.active {
+    top: 100%;
+  }
+
+  header ul li a {
+    padding: 15px;
+    display: block;
+    font-size: 16px;
+    color: var(--main-color);
+  }
+  .home {
+    margin-top: 2.5rem;
+  }
+
+  .home .home-text span {
+    font-size: 1rem;
+    text-transform: capitalize;
+  }
+  .home-text h1 {
+    font-size: 1.8rem;
+  }
+  .home-text h2 {
+    font-size: 1.4rem;
+    margin: 0.3rem 0 1rem;
+  }
+
+  .slides .slide img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .btn {
+    border-radius: 40px;
+    padding: 3px 15px;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+}
+
+/* Ukuran 992px */
+@media (max-width: 992px) {
+  header {
+    padding: 14px 30px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  header .logo {
+    font-size: 18px;
+  }
+
+  header ul li a {
+    font-size: 16px;
+    margin-left: 25px;
+  }
+
+  .home-text span {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  .home-text h1 {
+    font-size: 1.4rem;
+  }
+  .home-text h2 {
+    font-size: 1.2rem;
+    margin: 0.3rem 0 1rem;
+  }
+
+  .slides .slide img {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+  }
+
+  .btn {
+    border-radius: 40px;
+    padding: 3px 15px;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+}
+
+/* Ukuran 1200px */
+@media (max-width: 1200px) {
+  header {
+    padding: 18px 40px;
+  }
+
+  header .logo {
+    font-size: 20px;
+  }
+
+  header ul li a {
+    font-size: 18px;
+    margin-left: 50px;
+  }
+
+  section .home {
+    padding-top: -100;
+  }
+
+  .home-text span {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+  }
+  .home-text h1 {
+    font-size: 2.4rem;
+  }
+  .home-text h2 {
+    font-size: 1.5rem;
+    margin: 0.3rem 0 1rem;
+  }
+
+  .slides .slide img {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+  }
+
+  .btn {
+    border-radius: 40px;
+    padding: 3px 15px;
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+}
