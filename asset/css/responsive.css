@@ -1,4 +1,24 @@
 /* Responsive */
+/* Ukuran 550px */
+@media (max-width: 482px) {
+section {
+    padding: 83px;
+  }
+.home .slides .slide img{
+  display: none;
+  }
+section .home .home-text span {
+    font-size: 0.5rem;
+    text-transform: uppercase;
+  }
+.home-text h1 {
+    font-size: 1.8rem;
+  }
+.home-text h2 {
+    font-size: 1.4rem;
+    margin: 0.3rem 0 1rem;
+  }
+}
 /* Ukuran 768px */
 @media (max-width: 768px) {
   header {
